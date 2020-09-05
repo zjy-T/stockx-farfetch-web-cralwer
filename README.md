@@ -1,7 +1,8 @@
-# stockx-web-cralwer
-stockx web crawler that scrapes predefined data for each shoe. In particular, the scraper is designed to:
+# StockX Web Cralwer
 
-1. Collect information on the sneaker name, retail (converted to usd), average resell, and the url to the shoe image
+Welcome to the custom StockX web crawler!  This scraper is designed to:
+
+1. Collect data from the #sneaker# section of StockX, scraping information including sneaker name, retail price (converted to usd), average resell, last resell, calculated average profit and the url to the shoe image
 2. Automatically create and/or save all scraped data into a .csv file
 3. Access the image url to download the shoe image into a local folder
 4. The saved image's name will also be written to the .csv corresponding to the shoe, allowing for building convenient dataloaders for deep learning projects
