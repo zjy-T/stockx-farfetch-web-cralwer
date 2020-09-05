@@ -1,6 +1,6 @@
 # StockX Web Cralwer
 
-Welcome to the custom StockX web crawler!  This scraper is designed to:
+Welcome to the custom StockX web crawler!  This scraper is built using Beautifulsoup4 and is designed to:
 
 1. Collect data from the #sneaker# section of StockX, scraping information including sneaker name, retail price (converted to usd), average resell, last resell, calculated average profit and the url to the shoe image
 2. Automatically create and/or save all scraped data into a .csv file
