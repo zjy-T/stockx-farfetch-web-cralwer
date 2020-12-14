@@ -6,7 +6,6 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm.auto import tqdm
 import csv
-from helper import imagedownload
 
 
 def far_shoe_crawler(max_pages):
