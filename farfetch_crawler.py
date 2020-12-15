@@ -112,6 +112,6 @@ def imagedownload(url, count, platform):
 
     img_name = platform + '_' + 'shoe' + str(count) + '.jpg'
     img_path = platform + '_' + 'shoe' + str(count)
-    full_path = '/Users/tonyzhang/Desktop/Sneaker Project/' + platform + '_images/' + img_path + '.jpg'
+    full_path = '/path/to/your/project/' + platform + '_images/' + img_path + '.jpg'
     urllib.request.urlretrieve(url, full_path)
     return img_name
