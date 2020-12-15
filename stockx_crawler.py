@@ -127,3 +127,11 @@ def get_item(item_url, count):
         csv_writer.writerow([name, retail, last_sale_usd, avg_sale_usd, avg_profit, image_name, img_link, source])
     except:
         pass
+    
+def imagedownload(url, count, platform):
+
+    img_name = platform + '_' + 'shoe' + str(count) + '.jpg'
+    img_path = platform + '_' + 'shoe' + str(count)
+    full_path = '/path/to/your/project/' + platform + '_images/' + img_path + '.jpg'
+    urllib.request.urlretrieve(url, full_path)
+    return img_name
